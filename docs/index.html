@@ -1,0 +1,1023 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Navid Komijani</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+  
+  <style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body {
+  background: #fff;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: #333;
+  margin: 0 0 80px;
+  font-size: 15px;
+}
+
+a {
+  color: #e32b46;
+}
+
+a:focus,
+a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+strong {
+  font-size: smaller;
+  font-weight: 400;
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0 0 0.5em 0;
+}
+
+p + p {
+  margin-top: 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  font-weight: 300;
+  color: #555;
+}
+
+section {
+  margin-top: 24px;
+}
+
+ul,
+ol {
+  padding-left: 21px;
+}
+
+li {
+  line-height: 1.8;
+  list-style: none;
+}
+
+li:before {
+  content: '\f052';
+  float: left;
+  font: 16px Octicons;
+  margin-top: 6px;
+  margin-left: -20px;
+  opacity: 0.1;
+  position: absolute;
+}
+
+blockquote {
+  border-left: 3px solid #e7e9ec;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+em {
+  color: #666;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h4 span:first-child {
+  color: #333;
+  font-weight: 400;
+}
+
+.section {
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.section-title {
+  flex: 1;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.section-content {
+  flex: 4;
+}
+
+.container {
+  max-width: 768px;
+  padding: 0 30px;
+}
+
+.item-row {
+  padding-top: 5px;
+  margin-top: -5px;
+}
+
+.item-row-split {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-split {
+  flex: 0 0 50%;
+}
+
+#header {
+  padding: 50px 0 25px;
+}
+
+#header .section-title {
+  padding-right: 30px;
+}
+
+#header h2 {
+  color: #95a5a6;
+  font-size: 24px;
+}
+
+#content h3 {
+  color: #555;
+  font-size: 26px;
+  margin-top: -4px;
+}
+
+#profiles .network {
+  text-transform: capitalize;
+}
+
+#work .position,
+#volunteer .position {
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+#education .area {
+  font-weight: 400;
+}
+
+#education .area:before {
+  content: '\f0d7';
+  font: 16px Octicons;
+  margin-right: 6px;
+}
+
+#education .studyType {
+  margin-left: 25px;
+  padding-bottom: 5px;
+}
+
+#awards .summary,
+#publications .summary {
+  margin-top: 8px;
+}
+
+#publications .website a:before {
+  content: attr(href);
+}
+
+@media (min-width: 480px) {
+  .strike-through {
+    border-top: 1px solid #f4f6f6;
+    height: 20px;
+    margin-top: 12px;
+    margin-bottom: -2px;
+    position: relative;
+  }
+
+  .strike-through span,
+  .strike-through a {
+    background: #fff;
+    position: absolute;
+  }
+
+  .strike-through span:first-child {
+    padding-right: 20px;
+    margin-top: -12px;
+  }
+
+  .strike-through span + span {
+    font-size: 14px;
+    margin-top: -10px;
+    padding-left: 20px;
+    right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  #header h2 {
+    font-size: 24px;
+  }
+
+  #content h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  .date {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .strike-through span:first-child {
+    margin-bottom: 7px;
+  }
+
+  .strike-through span {
+    display: block;
+  }
+
+  #header {
+    padding: 30px 0 0;
+  }
+
+  #actions {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-content {
+    flex: 6;
+  }
+
+  #content h3 {
+    font-size: 20px;
+    margin-top: -1px;
+  }
+}
+
+@page {
+  margin-top: 0.5in;
+  margin-bottom: 0.5in;
+}
+
+@media print {
+  a {
+    color: #e32b46 !important;
+  }
+
+  a[href]:after {
+    display: none;
+  }
+
+  *,
+  :after,
+  :before {
+    background: #fff !important;
+  }
+
+  .container::before,
+  .container::after {
+    content: inherit;
+  }
+
+  .item-row {
+    break-inside: avoid;
+  }
+
+  #content aside {
+    margin: 0 !important;
+  }
+}
+
+  </style>
+  
+</head>
+<body>
+  <!-- HEADER -->
+  <header id="header">
+    <div class="container">
+			<div class="section">
+        <div class="section-title">
+          <img src="assets/avatar.jpg" class="img-responsive img-circle pull-right" style="max-height: 88px">
+        </div>
+				<div class="section-content">
+          <h1>Navid Komijani</h1>
+          <h2>Senior Android Developer</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+
+  <!-- CONTENT: Re-arrange sections order if necessary -->
+  <div id="content" class="container">
+    <!-- Contact -->
+    
+
+
+  <section id="contact" class="section">
+    <aside class="section-title"><h3>Contact</h3></aside>
+    <div class="section-content">
+      <div class="item-row">
+        <div class="item-row-split">
+          
+            <div class="item-split">
+              <strong>Email</strong>
+              <div>
+                <a href="mailto:navid.kom@gmail.com">navid.kom@gmail.com</a>
+              </div>
+            </div>
+          
+          
+            <div class="item-split">
+              <strong>Phone</strong>
+              <div class="phone">+989351142094</div>
+            </div>
+          
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- About -->
+    
+
+
+  <section id="about" class="section">
+    <aside class="section-title">
+      <h3>About</h3>
+    </aside>
+    <div class="section-content">
+      <p>I am a senior software engineer with a passion for Android development. I have worked as a software developer since 2009 and later focused extensively on mobile applications since 2012. I also had a chance to lead and train other developers along the way.</p>
+    </div>
+  </section>
+
+
+    <!-- Profiles -->
+    
+
+
+  <section id="profiles" class="section">
+    <aside class="section-title">
+      <h3>Profiles</h3>
+    </aside>
+    <div class="section-content">
+      <div class="item-row">
+        <div class="item-row-split">
+          
+            <div class="item-split">
+              <strong class="network">LinkedIn</strong>
+              <div class="url">
+                <a target="_blank" href="https://linkedin.com/in/navid-komijani/">navidkom</a>
+              </div>
+            </div>
+          
+            <div class="item-split">
+              <strong class="network">Twitter</strong>
+              <div class="url">
+                <a target="_blank" href="https://twitter.com/navidkom">navidkom</a>
+              </div>
+            </div>
+          
+            <div class="item-split">
+              <strong class="network">Github</strong>
+              <div class="url">
+                <a target="_blank" href="https://github.com/navidkom">navidkom</a>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Work -->
+    
+
+
+  <section id="work" class="section">
+    <aside class="section-title">
+      <h3>Work</h3>
+    </aside>
+    <div class="section-content">
+      
+        <div class="item-row">
+          <h4 class="strike-through">
+            <span></span>
+            <span class="date">
+              February 2022 — March 2022
+            </span>
+          </h4>
+          <div class="website pull-right">
+            <a target="_blank" href=""></a>
+          </div>
+          <div class="position">
+            Senior Android Developer
+          </div>
+          <div class="summary">
+            <p>Wallex is top leading cryptocurrency exchange in Iran, and I am working here as Senior Android Enginner.  I designed and developed Wallex exchange Application from scratch based on Kotlin, MVVM and Jetpack Compose, resulting in over +100k downloads and achieving a 99.89% crash-free rate. there is some of my duties alongside focusing on code:
+• Collaborate effectively with cross-functional teams to develop mobile applications that met business requirements.
+• Integrated crashlytics and analytics tools like Sentry, Firebase, Google Analytics and Metrix, to monitor user behavior and application performance. 
+• Led the application release process, including building and signing release APKs, conducting Alpha and Beta testing, and successfully launching the app to production on the Google Play Store and CafeBazaar.</p>
+          </div>
+          
+        </div>
+      
+        <div class="item-row">
+          <h4 class="strike-through">
+            <span></span>
+            <span class="date">
+              May 2021 — January 2022
+            </span>
+          </h4>
+          <div class="website pull-right">
+            <a target="_blank" href=""></a>
+          </div>
+          <div class="position">
+            Lead Android Developer (Eways)
+          </div>
+          <div class="summary">
+            <p>Eways is one of the Tehran Internet holding products and is one of largest B2B online stores focusing on selling mobile phones and accessories in Iran. When I joined to the team as Android team leader, the performance of the application was low and there were many crashes in the application that made the customers unhappy, also the code base of project was very big, consist of different technologies and it was unmaintainable.
+
+• I successfully refactored and restructured the code base and revamped the project architecture using the MVVM principle, Koin, Courutines and Jetpack Architecture Components.
+As a result:
+• The project code base came integrated and maintainable and the number of lines of code has been reduced by a remarkable 30%.
+• Crash free rate of the application that was about 88% before refactoring came to 97% after this and crash rate reduced by 9%.
+• The performance of the program increased significantly; application loading time was cut in about half and the improvements led to a 12% increase in the number of registered orders in just 9 months.</p>
+          </div>
+          
+        </div>
+      
+        <div class="item-row">
+          <h4 class="strike-through">
+            <span></span>
+            <span class="date">
+              January 2020 — May 2021
+            </span>
+          </h4>
+          <div class="website pull-right">
+            <a target="_blank" href=""></a>
+          </div>
+          <div class="position">
+            Senior Android Developer (Packet)
+          </div>
+          <div class="summary">
+            <p>Tehran Internet is one of the largest physical and e-charge distribute companies for Iranian mobile phone providers and Internet service providers. Tehran Internet is also provider of the *780# USSD Iran. I developed</p>
+          </div>
+          
+        </div>
+      
+        <div class="item-row">
+          <h4 class="strike-through">
+            <span></span>
+            <span class="date">
+              October 2018 — January 2020
+            </span>
+          </h4>
+          <div class="website pull-right">
+            <a target="_blank" href=""></a>
+          </div>
+          <div class="position">
+            Senior Android Developer
+          </div>
+          <div class="summary">
+            <p>Alopeyk is the leading on-demand urban logistics platform with about 4 million active users in Iran, bringing instant delivery within anyone&#39;s reach. It uses an extensive network of motorcycle couriers to form a logistics network that&#39;s fast, cheap and reliable. I worked on Alopeyk&#39;s mobile team as a Senior Android Enginner. some of my achievemnts on this roll was:
+ 
+- Increased test code coverage by 70% through writing unit tests.
+- Increased code reusability by writing fully modular components.
+- Achieved testable and maintainable codebase by using Android Architecture Components.
+- Applied expertise in Kotlin, asynchronous programming using Kotlin Coroutines, MVVM, multi-modular 
+ patterns, SQLite using Room, Hilt, Git.</p>
+          </div>
+          
+        </div>
+      
+        <div class="item-row">
+          <h4 class="strike-through">
+            <span></span>
+            <span class="date">
+              May 2015 — October 2018
+            </span>
+          </h4>
+          <div class="website pull-right">
+            <a target="_blank" href=""></a>
+          </div>
+          <div class="position">
+            Android Developer
+          </div>
+          <div class="summary">
+            <p>I&#39;ve worked on the BisphonePlus project as a developer, BisPhone is a communication app for smart phones. It’s easy to use and optimized and convenient for everyday use. BisPhone recommended the easiest way for sending various types of messages, including text messages, media messages, location sharing and file transfers.
+- Contributed to the design and implementation of multiple new feature specifications, resulting in - 
+ improved functionality, enhanced user experience, and increased customer satisfaction.
+- Enhanced code maintainability through continued code review.
+- Boosted user engagement by 30% by implementing End to End Encryption Secret Chat with Diffie- 
+ Hellman key exchange and AES encryption.
+- Improved file and media download/upload process by implementing resumable functionality, resulting in 
+ enhanced user experience and reduced data consumption.
+- Leveraged knowledge in Java, Model View Controller (MVC), creational design patterns, End-to-End 
+ encryption, Glide, Retrofit.</p>
+          </div>
+          
+        </div>
+      
+    </div>
+  </section>
+
+
+    <!-- Skills -->
+    
+
+
+  <section id="skills" class="section">
+    <aside class="section-title">
+      <h3>Skills</h3>
+    </aside>
+    <div class="section-content">
+      <div class="item-row">
+        <div class="item-row-split">
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Android Studio</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Android SDK</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Android NDK</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Coroutines</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>C</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>JSON</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Android</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>SQLite</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Software Engineering</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Microsoft Excel</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Jetpack Compose</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>XML</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Multithreading</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>MVVM</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>SQL</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>User Interface Design</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Git</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Android Development, Kotlin, Java, Jetpack Compose, Kotlin Coroutines, Hilt, Web Socket, Git,</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Java</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Programming</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Mobile Application Development</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Object-Oriented Programming (OOP)</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Coding Standards</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Android Development</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Microsoft Office</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>OOP</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Reactive Programming</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>HTML</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>MySQL</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Client-server Application Development</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Dependency Management</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>C++</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>PHP</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Clean Coding</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>WebSocket</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Software Development</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>Kotlin</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>ProGuard</h4>
+              </div>
+              
+            </div>
+          
+            <div class="item-split">
+              <div class="name">
+                <h4>mvc</h4>
+              </div>
+              
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Education -->
+    
+
+
+  <section id="education" class="section">
+    <aside class="section-title">
+      <h3>Education</h3>
+    </aside>
+    <div class="section-content">
+      
+        <div class="item-row">
+          <h4 class="strike-through">
+            <span>Shahid Beheshti University</span>
+            <span class="date">
+              December 2014 — December 2017
+            </span>
+          </h4>
+          <div class="area">Enterprise Architecture</div>
+          <div class="studyType">
+            Master&#39;s Degree
+            
+          </div>
+          
+        </div>
+      
+        <div class="item-row">
+          <h4 class="strike-through">
+            <span>Shahrood University of Technology</span>
+            <span class="date">
+              December 2009 — December 2013
+            </span>
+          </h4>
+          <div class="area">Information Technology</div>
+          <div class="studyType">
+            Bachelor of Engineering (BEng)
+            
+          </div>
+          
+            <h4>Courses</h4>
+            
+              <ul class="courses">
+                <li>null - programming with c++</li>
+              </ul>
+            
+          
+        </div>
+      
+    </div>
+  </section>
+
+
+    <!-- Certificates -->
+    
+
+
+
+    <!-- Awards -->
+    
+
+
+  <section id="awards" class="section">
+    <aside class="section-title">
+      <h3>Awards</h3>
+    </aside>
+    <div class="section-content">
+      
+        <div class="item-row">
+          <h4 class="strike-through">
+            <span>StartupTalent</span>
+          </h4>
+          <div class="date pull-right">
+            <em>Awarded</em>
+            February 2015
+          </div>
+          <div>
+            <em>by</em>
+            <strong>همراه اول</strong>
+          </div>
+          <div class="summary">
+            کسب مقام دوم
+          </div>
+        </div>
+      
+    </div>
+  </section>
+
+
+
+    <!-- Projects -->
+    
+
+
+
+    <!-- Volunteer -->
+    
+
+
+
+    <!-- Publications -->
+    
+
+
+
+    <!-- Languages -->
+    
+
+
+  <section id="languages" class="section">
+    <aside class="section-title">
+      <h3>Languages</h3>
+    </aside>
+    <div class="section-content">
+      <div class="item-row">
+        <div class="item-row-split">
+          
+            <div class="item-split">
+              <div class="language"><strong>English</strong></div>
+              <div class="fluency">Native Speaker</div>
+            </div>
+          
+            <div class="item-split">
+              <div class="language"><strong>farsi</strong></div>
+              <div class="fluency">Native Speaker</div>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Interests -->
+    
+
+
+
+    <!-- References -->
+    
+
+
+  <section id="references" class="section">
+    <aside class="section-title">
+      <h3>References</h3>
+    </aside>
+    <div class="section-content">
+      
+        <div class="item-row">
+          <p>I am delighted to write a recommendation for Navid, with whom I had the pleasure of working closely as Android developers at both Bisphone Telecom and Alopeyk On-demand delivery companies.
+
+Navid is an exceptional Android developer with a remarkable set of skills and an unwavering commitment to delivering high-quality results. I had the privilege of witnessing their talent firsthand as we collaborated on numerous projects. Their technical proficiency in Android development, coupled with their deep understanding of Kotlin and Java, allowed them to consistently deliver robust and efficient code.
+
+What truly sets Navid apart is their exceptional problem-solving abilities and innovative approach to finding elegant solutions. They possess a strong analytical mindset and demonstrated an aptitude for tackling complex challenges with ease. Their passion for staying up-to-date with the latest industry trends and technologies is evident in the innovative features and improvements they introduced to our applications.
+
+Moreover, Navid is an excellent team player and a pleasure to work with. They consistently demonstrated effective communication skills, fostering a collaborative and supportive work environment. Their ability to seamlessly collaborate with cross-functional teams, including designers and backend developers, was instrumental in delivering cohesive and successful products.
+
+I wholeheartedly recommend Navid for any Senior Android development role. Their technical expertise, problem-solving abilities, and dedication to producing exceptional results make them an invaluable asset to any team. It was truly a pleasure working alongside Navid, and I am confident that they will continue to thrive and excel in their future endeavours.</p>
+          <p class="name">
+            <strong>— Babak Gholampour</strong></p>
+          </p>
+          <br>
+        </div>
+      
+        <div class="item-row">
+          <p>Navid is an excellent team player and a pleasure to collaborate with. He is always willing to lend a helping hand, offer guidance, and share his knowledge with others. His positive attitude and friendly demeanor create a supportive and motivating work environment.</p>
+          <p class="name">
+            <strong>— Alireza Mahmoudi</strong></p>
+          </p>
+          <br>
+        </div>
+      
+        <div class="item-row">
+          <p>I highly recommend Navid for his exceptional contributions to the development of real-time messaging app. Navid showed great talent in quickly learning new technologies and played a key role in implementing crucial features such as video calling, real-time messaging using customised RPC, and end-to-end secure chat. His dedication and expertise were instrumental in delivering a seamless user experience. Navid is a valuable asset to any team, and I have no doubt that he will continue to excel in his future endeavours.</p>
+          <p class="name">
+            <strong>— Liam Manesh</strong></p>
+          </p>
+          <br>
+        </div>
+      
+        <div class="item-row">
+          <p>I have had the pleasure of working with Navid during the development of the Tehran Internet Android application. He is enthusiastic and thrives on tackling difficult technical challenges. He is technically competent and is capable of solving tough problems with complex designs. Moreover, he has the extraordinary ability of able to quickly dissect a new technology concept and implement code in a robust way that can be quickly productized.
+Navid would be a great addition to Android development engineering teams.</p>
+          <p class="name">
+            <strong>— Majid Mohammadnejad</strong></p>
+          </p>
+          <br>
+        </div>
+      
+    </div>
+  </section>
+
+
+  </div>
+</body>
+</html>
