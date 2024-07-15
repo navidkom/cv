@@ -1,0 +1,339 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Navid Komijani",
+    "label": "Senior Android Developer",
+    "image": "assets/avatar.jpg",
+    "email": "navid.kom@gmail.com",
+    "phone": "+989351142094",
+    "url": "https://navidkom.site",
+    "summary": "I am a senior software engineer with a passion for Android development. I have worked as a software developer since 2009 and later focused extensively on mobile applications since 2012. I also had a chance to lead and train other developers along the way.",
+    "location": {
+      "countryCode": "IR",
+      "address": "Tehran, Iran"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "navidkom",
+        "url": "https://linkedin.com/in/navid-komijani/"
+      },
+      {
+        "network": "Twitter",
+        "username": "navidkom",
+        "url": "https://twitter.com/navidkom"
+      },
+      {
+        "network": "Github",
+        "username": "navidkom",
+        "url": "https://github.com/navidkom"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Wallex",
+      "endDate": "2022-02-29",
+      "highlights": [],
+      "position": "Senior Android Developer",
+      "startDate": "2022-02-28",
+      "summary": "Wallex is top leading cryptocurrency exchange in Iran, and I am working here as Senior Android Enginner.  I designed and developed Wallex exchange Application from scratch based on Kotlin, MVVM and Jetpack Compose, resulting in over +100k downloads and achieving a 99.89% crash-free rate. there is some of my duties alongside focusing on code:\n• Collaborate effectively with cross-functional teams to develop mobile applications that met business requirements.\n• Integrated crashlytics and analytics tools like Sentry, Firebase, Google Analytics and Metrix, to monitor user behavior and application performance. \n• Led the application release process, including building and signing release APKs, conducting Alpha and Beta testing, and successfully launching the app to production on the Google Play Store and CafeBazaar.",
+      "website": "https://www.linkedin.com/company/12984529"
+    },
+    {
+      "company": "Tehran Internet",
+      "endDate": "2022-01-31",
+      "highlights": [],
+      "position": "Lead Android Developer (Eways)",
+      "startDate": "2021-05-31",
+      "summary": "Eways is one of the Tehran Internet holding products and is one of largest B2B online stores focusing on selling mobile phones and accessories in Iran. When I joined to the team as Android team leader, the performance of the application was low and there were many crashes in the application that made the customers unhappy, also the code base of project was very big, consist of different technologies and it was unmaintainable.\n\n• I successfully refactored and restructured the code base and revamped the project architecture using the MVVM principle, Koin, Courutines and Jetpack Architecture Components.\nAs a result:\n• The project code base came integrated and maintainable and the number of lines of code has been reduced by a remarkable 30%.\n• Crash free rate of the application that was about 88% before refactoring came to 97% after this and crash rate reduced by 9%.\n• The performance of the program increased significantly; application loading time was cut in about half and the improvements led to a 12% increase in the number of registered orders in just 9 months.",
+      "website": "https://www.linkedin.com/company/3716619"
+    },
+    {
+      "company": "Tehran Internet",
+      "endDate": "2021-05-31",
+      "highlights": [],
+      "position": "Senior Android Developer (Packet)",
+      "startDate": "2020-01-31",
+      "summary": "Tehran Internet is one of the largest physical and e-charge distribute companies for Iranian mobile phone providers and Internet service providers. Tehran Internet is also provider of the *780# USSD Iran. I developed",
+      "website": "https://www.linkedin.com/company/3716619"
+    },
+    {
+      "company": "AloPeyk - On-demand Delivery for Iran",
+      "endDate": "2020-01-31",
+      "highlights": [],
+      "position": "Senior Android Developer",
+      "startDate": "2018-10-31",
+      "summary": "Alopeyk is the leading on-demand urban logistics platform with about 4 million active users in Iran, bringing instant delivery within anyone's reach. It uses an extensive network of motorcycle couriers to form a logistics network that's fast, cheap and reliable. I worked on Alopeyk's mobile team as a Senior Android Enginner. some of my achievemnts on this roll was:\n \n- Increased test code coverage by 70% through writing unit tests.\n- Increased code reusability by writing fully modular components.\n- Achieved testable and maintainable codebase by using Android Architecture Components.\n- Applied expertise in Kotlin, asynchronous programming using Kotlin Coroutines, MVVM, multi-modular \n patterns, SQLite using Room, Hilt, Git.",
+      "website": "https://www.linkedin.com/company/13217306"
+    },
+    {
+      "company": "BisPhone",
+      "endDate": "2018-10-31",
+      "highlights": [],
+      "position": "Android Developer",
+      "startDate": "2015-05-31",
+      "summary": "I've worked on the BisphonePlus project as a developer, BisPhone is a communication app for smart phones. It’s easy to use and optimized and convenient for everyday use. BisPhone recommended the easiest way for sending various types of messages, including text messages, media messages, location sharing and file transfers.\n- Contributed to the design and implementation of multiple new feature specifications, resulting in - \n improved functionality, enhanced user experience, and increased customer satisfaction.\n- Enhanced code maintainability through continued code review.\n- Boosted user engagement by 30% by implementing End to End Encryption Secret Chat with Diffie- \n Hellman key exchange and AES encryption.\n- Improved file and media download/upload process by implementing resumable functionality, resulting in \n enhanced user experience and reduced data consumption.\n- Leveraged knowledge in Java, Model View Controller (MVC), creational design patterns, End-to-End \n encryption, Glide, Retrofit.",
+      "website": "https://www.linkedin.com/company/7960595"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Shahid Beheshti University",
+      "area": "Enterprise Architecture",
+      "studyType": "Master's Degree",
+      "startDate": "2014-12-31",
+      "endDate": "2017-12-31",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Shahrood University of Technology",
+      "area": "Information Technology",
+      "studyType": "Bachelor of Engineering (BEng)",
+      "startDate": "2009-12-31",
+      "endDate": "2013-12-31",
+      "gpa": "",
+      "courses": [
+        "null - programming with c++"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "StartupTalent",
+      "date": "2015-02-28",
+      "awarder": "همراه اول",
+      "summary": "کسب مقام دوم"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Android Studio",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android SDK",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android NDK",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Coroutines",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JSON",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQLite",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Excel",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jetpack Compose",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Multithreading",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MVVM",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "User Interface Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android Development, Kotlin, Java, Jetpack Compose, Kotlin Coroutines, Hilt, Web Socket, Git,",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mobile Application Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Object-Oriented Programming (OOP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Coding Standards",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Office",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "OOP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Reactive Programming",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Client-server Application Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Dependency Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C++",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Clean Coding",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WebSocket",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kotlin",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ProGuard",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "mvc",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "farsi"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Babak Gholampour",
+      "reference": "I am delighted to write a recommendation for Navid, with whom I had the pleasure of working closely as Android developers at both Bisphone Telecom and Alopeyk On-demand delivery companies.\n\nNavid is an exceptional Android developer with a remarkable set of skills and an unwavering commitment to delivering high-quality results. I had the privilege of witnessing their talent firsthand as we collaborated on numerous projects. Their technical proficiency in Android development, coupled with their deep understanding of Kotlin and Java, allowed them to consistently deliver robust and efficient code.\n\nWhat truly sets Navid apart is their exceptional problem-solving abilities and innovative approach to finding elegant solutions. They possess a strong analytical mindset and demonstrated an aptitude for tackling complex challenges with ease. Their passion for staying up-to-date with the latest industry trends and technologies is evident in the innovative features and improvements they introduced to our applications.\n\nMoreover, Navid is an excellent team player and a pleasure to work with. They consistently demonstrated effective communication skills, fostering a collaborative and supportive work environment. Their ability to seamlessly collaborate with cross-functional teams, including designers and backend developers, was instrumental in delivering cohesive and successful products.\n\nI wholeheartedly recommend Navid for any Senior Android development role. Their technical expertise, problem-solving abilities, and dedication to producing exceptional results make them an invaluable asset to any team. It was truly a pleasure working alongside Navid, and I am confident that they will continue to thrive and excel in their future endeavours."
+    },
+    {
+      "name": "Alireza Mahmoudi",
+      "reference": "Navid is an excellent team player and a pleasure to collaborate with. He is always willing to lend a helping hand, offer guidance, and share his knowledge with others. His positive attitude and friendly demeanor create a supportive and motivating work environment."
+    },
+    {
+      "name": "Liam Manesh",
+      "reference": "I highly recommend Navid for his exceptional contributions to the development of real-time messaging app. Navid showed great talent in quickly learning new technologies and played a key role in implementing crucial features such as video calling, real-time messaging using customised RPC, and end-to-end secure chat. His dedication and expertise were instrumental in delivering a seamless user experience. Navid is a valuable asset to any team, and I have no doubt that he will continue to excel in his future endeavours."
+    },
+    {
+      "name": "Majid Mohammadnejad",
+      "reference": "I have had the pleasure of working with Navid during the development of the Tehran Internet Android application. He is enthusiastic and thrives on tackling difficult technical challenges. He is technically competent and is capable of solving tough problems with complex designs. Moreover, he has the extraordinary ability of able to quickly dissect a new technology concept and implement code in a robust way that can be quickly productized.\nNavid would be a great addition to Android development engineering teams."
+    }
+  ]
+
+}
