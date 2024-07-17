@@ -1,32 +1,22 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Navid Komijani",
-    "label": "Senior Android Developer",
-    "image": "assets/avatar.jpg",
+    "name": "navid komijani",
+    "label": "Android Chapter Lead at Wallex",
+    "picture": "",
     "email": "navid.kom@gmail.com",
-    "phone": "+989351142094",
-    "url": "https://navidkom.site",
-    "summary": "I am a senior software engineer with a passion for Android development. I have worked as a software developer since 2009 and later focused extensively on mobile applications since 2012. I also had a chance to lead and train other developers along the way.",
+    "phone": "00989351142094",
+    "website": "",
+    "summary": "I am a software engineer with Master's Degree in Information Technology from Shahid Beheshti University of Tehran and over 8 years of experience in designing and developing Android applications for various industries, including instant messaging, on-demand delivery, cryptocurrency, and smart homes. Throughout my career, I have gained proficiency in a wide range of technologies and tools, such as Kotlin, Java, MVC, MVVM, Coroutines, Jetpack Compose, Web Socket, FCM, Hilt, SQLite, Git, and more. I am well-versed in all aspects of Android development and stay up-to-date with the latest advancements in the field.",
     "location": {
-      "countryCode": "IR",
-      "address": "Tehran, Iran"
+      "countryCode": "US",
+      "address": "Germany"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "navidkom",
-        "url": "https://linkedin.com/in/navid-komijani/"
-      },
-      {
-        "network": "Twitter",
-        "username": "navidkom",
-        "url": "https://twitter.com/navidkom"
-      },
-      {
-        "network": "Github",
-        "username": "navidkom",
-        "url": "https://github.com/navidkom"
+        "username": "navid-komijani",
+        "url": "https://www.linkedin.com/in/navid-komijani/"
       }
     ]
   },
@@ -34,19 +24,21 @@
     {
       "company": "Wallex",
       "endDate": "2022-02-29",
-      "highlights": [],
       "position": "Senior Android Developer",
       "startDate": "2022-02-28",
-      "summary": "Wallex is top leading cryptocurrency exchange in Iran, and I am working here as Senior Android Enginner.  I designed and developed Wallex exchange Application from scratch based on Kotlin, MVVM and Jetpack Compose, resulting in over +100k downloads and achieving a 99.89% crash-free rate. there is some of my duties alongside focusing on code:\n• Collaborate effectively with cross-functional teams to develop mobile applications that met business requirements.\n• Integrated crashlytics and analytics tools like Sentry, Firebase, Google Analytics and Metrix, to monitor user behavior and application performance. \n• Led the application release process, including building and signing release APKs, conducting Alpha and Beta testing, and successfully launching the app to production on the Google Play Store and CafeBazaar.",
+      "summary": "Wallex is top leading cryptocurrency exchange in Iran, and I am working here as Senior Android Enginner.  I designed and developed Wallex exchange Application from scratch based on Kotlin, MVVM and Jetpack Compose, resulting in over +100k downloads and achieving a 99.89% crash-free rate. there is some of my duties alongside focusing on code.",
+      "highlights": ["Collaborate effectively with cross-functional teams to develop mobile applications that met business requirements.",
+        "Integrated crashlytics and analytics tools like Sentry, Firebase, Google Analytics and Metrix, to monitor user behavior and application performance.",
+        "Led the application release process, including building and signing release APKs, conducting Alpha and Beta testing, and successfully launching the app to production on the Google Play Store and CafeBazaar."],
       "website": "https://www.linkedin.com/company/12984529"
     },
     {
       "company": "Tehran Internet",
       "endDate": "2022-01-31",
-      "highlights": [],
       "position": "Lead Android Developer (Eways)",
       "startDate": "2021-05-31",
-      "summary": "Eways is one of the Tehran Internet holding products and is one of largest B2B online stores focusing on selling mobile phones and accessories in Iran. When I joined to the team as Android team leader, the performance of the application was low and there were many crashes in the application that made the customers unhappy, also the code base of project was very big, consist of different technologies and it was unmaintainable.\n\n• I successfully refactored and restructured the code base and revamped the project architecture using the MVVM principle, Koin, Courutines and Jetpack Architecture Components.\nAs a result:\n• The project code base came integrated and maintainable and the number of lines of code has been reduced by a remarkable 30%.\n• Crash free rate of the application that was about 88% before refactoring came to 97% after this and crash rate reduced by 9%.\n• The performance of the program increased significantly; application loading time was cut in about half and the improvements led to a 12% increase in the number of registered orders in just 9 months.",
+      "summary": "Eways is one of the Tehran Internet holding products and is one of largest B2B online stores focusing on selling mobile phones and accessories in Iran. When I joined to the team as Android team leader, the performance of the application was low and there were many crashes in the application that made the customers unhappy, also the code base of project was very big, consist of different technologies and it was unmaintainable.",
+      "highlights": ["I successfully refactored and restructured the code base and revamped the project architecture using the MVVM principle, Koin, Courutines and Jetpack Architecture Components.","The project code base came integrated and maintainable and the number of lines of code has been reduced by a remarkable 30%.","Crash free rate of the application that was about 88% before refactoring came to 97% after this and crash rate reduced by 9%.","The performance of the program increased significantly; application loading time was cut in about half and the improvements led to a 12% increase in the number of registered orders in just 9 months."],
       "website": "https://www.linkedin.com/company/3716619"
     },
     {
@@ -61,19 +53,19 @@
     {
       "company": "AloPeyk - On-demand Delivery for Iran",
       "endDate": "2020-01-31",
-      "highlights": [],
       "position": "Senior Android Developer",
       "startDate": "2018-10-31",
-      "summary": "Alopeyk is the leading on-demand urban logistics platform with about 4 million active users in Iran, bringing instant delivery within anyone's reach. It uses an extensive network of motorcycle couriers to form a logistics network that's fast, cheap and reliable. I worked on Alopeyk's mobile team as a Senior Android Enginner. some of my achievemnts on this roll was:\n \n- Increased test code coverage by 70% through writing unit tests.\n- Increased code reusability by writing fully modular components.\n- Achieved testable and maintainable codebase by using Android Architecture Components.\n- Applied expertise in Kotlin, asynchronous programming using Kotlin Coroutines, MVVM, multi-modular \n patterns, SQLite using Room, Hilt, Git.",
+      "summary": "Alopeyk is the leading on-demand urban logistics platform with about 4 million active users in Iran, bringing instant delivery within anyone's reach. It uses an extensive network of motorcycle couriers to form a logistics network that's fast, cheap and reliable. I worked on Alopeyk's mobile team as a Senior Android Enginner. some of my achievemnts on this roll was:",
+      "highlights": ["Increased test code coverage by 70% through writing unit tests.","Increased code reusability by writing fully modular components.","Achieved testable and maintainable codebase by using Android Architecture Components.","Applied expertise in Kotlin, asynchronous programming using Kotlin Coroutines, MVVM, multi-modular \n patterns, SQLite using Room, Hilt, Git."],
       "website": "https://www.linkedin.com/company/13217306"
     },
     {
       "company": "BisPhone",
       "endDate": "2018-10-31",
-      "highlights": [],
       "position": "Android Developer",
       "startDate": "2015-05-31",
-      "summary": "I've worked on the BisphonePlus project as a developer, BisPhone is a communication app for smart phones. It’s easy to use and optimized and convenient for everyday use. BisPhone recommended the easiest way for sending various types of messages, including text messages, media messages, location sharing and file transfers.\n- Contributed to the design and implementation of multiple new feature specifications, resulting in - \n improved functionality, enhanced user experience, and increased customer satisfaction.\n- Enhanced code maintainability through continued code review.\n- Boosted user engagement by 30% by implementing End to End Encryption Secret Chat with Diffie- \n Hellman key exchange and AES encryption.\n- Improved file and media download/upload process by implementing resumable functionality, resulting in \n enhanced user experience and reduced data consumption.\n- Leveraged knowledge in Java, Model View Controller (MVC), creational design patterns, End-to-End \n encryption, Glide, Retrofit.",
+      "summary": "I've worked on the BisphonePlus project as a developer, BisPhone is a communication app for smart phones. It’s easy to use and optimized and convenient for everyday use. BisPhone recommended the easiest way for sending various types of messages, including text messages, media messages, location sharing and file transfers.",
+      "highlights": ["Contributed to the design and implementation of multiple new feature specifications, resulting in","improved functionality, enhanced user experience, and increased customer satisfaction.","Enhanced code maintainability through continued code review.","Boosted user engagement by 30% by implementing End to End Encryption Secret Chat with Diffie- \n Hellman key exchange and AES encryption.","Improved file and media download/upload process by implementing resumable functionality, resulting in \n enhanced user experience and reduced data consumption.","Leveraged knowledge in Java, Model View Controller (MVC), creational design patterns, End-to-End \n encryption, Glide, Retrofit."],
       "website": "https://www.linkedin.com/company/7960595"
     }
   ],
@@ -100,15 +92,6 @@
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "StartupTalent",
-      "date": "2015-02-28",
-      "awarder": "همراه اول",
-      "summary": "کسب مقام دوم"
-    }
-  ],
-  "publications": [],
   "skills": [
     {
       "name": "Android Studio",
@@ -335,5 +318,4 @@
       "reference": "I have had the pleasure of working with Navid during the development of the Tehran Internet Android application. He is enthusiastic and thrives on tackling difficult technical challenges. He is technically competent and is capable of solving tough problems with complex designs. Moreover, he has the extraordinary ability of able to quickly dissect a new technology concept and implement code in a robust way that can be quickly productized.\nNavid would be a great addition to Android development engineering teams."
     }
   ]
-
 }
