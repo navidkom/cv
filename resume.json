@@ -22,8 +22,8 @@
   },
   "work": [
     {
-      "company": "Wallex",
-      "endDate": "2022-02-29",
+      "name": "Wallex",
+      "location": "Tehran",
       "position": "Senior Android Developer",
       "startDate": "2022-02-28",
       "summary": "Wallex is top leading cryptocurrency exchange in Iran, and I am working here as Senior Android Enginner.  I designed and developed Wallex exchange Application from scratch based on Kotlin, MVVM and Jetpack Compose, resulting in over +100k downloads and achieving a 99.89% crash-free rate. there is some of my duties alongside focusing on code.",
